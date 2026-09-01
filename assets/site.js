@@ -18,69 +18,6 @@ const fullPublications = [
   },
 
   {
-    title: "Comprehensive Design Methodology of Compound-Split Hybrid Electric Vehicles: Introduction of the Compound Lever as a Design Tool",
-    authors: "H. Kim, T. Barhoumi (co-first author), and D. Kum",
-    venue: "IEEE Access",
-    year: "2019",
-    citations: "",
-    note: "doi:10.1109/ACCESS.2019.2925146"
-  },
-
-  {
-    title: "Automatic Generation of Design Space Conversion Maps and Its Application for the Design of Compound-Split Hybrid Powertrains",
-    authors: "T. Barhoumi, H. Kim, and D. Kum",
-    venue: "Journal of Mechanical Design",
-    year: "2018",
-    citations: "",
-    note: "doi:10.1115/1.4039451"
-  },
-
-  {
-    title: "Automatic Enumeration of Feasible Kinematic Diagrams for Split Hybrid Configurations with a Single Planetary Gear",
-    authors: "T. Barhoumi and D. Kum",
-    venue: "Journal of Mechanical Design",
-    year: "2017",
-    citations: "",
-    note: "doi:10.1115/1.4036583"
-  },
-
-  {
-    title: "Systematic Design of Fixed-Gear Modes for Novel Multi-Mode Architectures: A Prius Case Study",
-    authors: "T. Barhoumi and D. Kum",
-    venue: "European Control Conference",
-    year: "2022",
-    citations: "",
-    note: "doi:10.23919/ECC55457.2022.9838163"
-  },
-
-  {
-    title: "Complete Design Space Exploration of the Generic Voltec Second-Generation Powertrain via Virtual Levers",
-    authors: "C. Song, J. Hwang, T. Barhoumi, and D. Kum",
-    venue: "AVEC",
-    year: "2018",
-    citations: "",
-    note: ""
-  },
-
-  {
-    title: "Compound-Lever-Based Optimal Configuration Selection of Compound-Split Hybrid Vehicles",
-    authors: "T. Barhoumi, H. Kim, and D. Kum",
-    venue: "SAE Technical Paper 2017-01-1148",
-    year: "2017",
-    citations: "",
-    note: "doi:10.4271/2017-01-1148"
-  },
-
-  {
-    title: "Automated Schematic Design of Power-Split Hybrid Vehicles with a Single Planetary Gear",
-    authors: "T. Barhoumi and D. Kum",
-    venue: "ASME Dynamic Systems and Control Conference",
-    year: "2014",
-    citations: "",
-    note: "doi:10.1115/DSCC2014-6086"
-  },
-
-  {
     title: "Bridging the Gap between Power-Split and Parallel Systems for a Superior Performance: Prius Case Study",
     authors: "T. Barhoumi and D. Kum",
     venue: "KSAE Annual Conference",
@@ -99,6 +36,15 @@ const fullPublications = [
   },
 
   {
+    title: "Systematic Design of Fixed-Gear Modes for Novel Multi-Mode Architectures: A Prius Case Study",
+    authors: "T. Barhoumi and D. Kum",
+    venue: "European Control Conference",
+    year: "2022",
+    citations: "",
+    note: "doi:10.23919/ECC55457.2022.9838163"
+  },
+
+  {
     title: "Analysis of a Toyota Prius 4th Generation-Based Multi-Mode System Using Dog Clutches",
     authors: "T. Barhoumi and D. Kum",
     venue: "KSAE Annual Conference",
@@ -107,6 +53,33 @@ const fullPublications = [
     note: ""
   },
 
+  {
+    title: "Comprehensive Design Methodology of Compound-Split Hybrid Electric Vehicles: Introduction of the Compound Lever as a Design Tool",
+    authors: "H. Kim, T. Barhoumi (co-first author), and D. Kum",
+    venue: "IEEE Access",
+    year: "2019",
+    citations: "",
+    note: "doi:10.1109/ACCESS.2019.2925146"
+  },
+
+  {
+    title: "Automatic Generation of Design Space Conversion Maps and Its Application for the Design of Compound-Split Hybrid Powertrains",
+    authors: "T. Barhoumi, H. Kim, and D. Kum",
+    venue: "Journal of Mechanical Design",
+    year: "2018",
+    citations: "",
+    note: "doi:10.1115/1.4039451"
+  },
+
+  {
+    title: "Complete Design Space Exploration of the Generic Voltec Second-Generation Powertrain via Virtual Levers",
+    authors: "C. Song, J. Hwang, T. Barhoumi, and D. Kum",
+    venue: "AVEC",
+    year: "2018",
+    citations: "",
+    note: ""
+  },
+  
   {
     title: "Evaluation of the Full Potential of the Generic Voltec Second Generation Powertrain through Exhaustive Virtual Design Space Search",
     authors: "T. Barhoumi et al.",
@@ -117,6 +90,24 @@ const fullPublications = [
   },
 
   {
+    title: "Automatic Enumeration of Feasible Kinematic Diagrams for Split Hybrid Configurations with a Single Planetary Gear",
+    authors: "T. Barhoumi and D. Kum",
+    venue: "Journal of Mechanical Design",
+    year: "2017",
+    citations: "",
+    note: "doi:10.1115/1.4036583"
+  },
+
+  {
+    title: "Compound-Lever-Based Optimal Configuration Selection of Compound-Split Hybrid Vehicles",
+    authors: "T. Barhoumi, H. Kim, and D. Kum",
+    venue: "SAE Technical Paper 2017-01-1148",
+    year: "2017",
+    citations: "",
+    note: "doi:10.4271/2017-01-1148"
+  },
+
+  {
     title: "Optimal Configuration Selection of Two Planetary Gear Compound-Split Hybrid Electric Vehicles",
     authors: "H. Kim, T. Barhoumi, and D. Kum",
     venue: "KSAE Annual Conference",
@@ -124,6 +115,15 @@ const fullPublications = [
     citations: "",
     note: ""
   }
+
+  {
+    title: "Automated Schematic Design of Power-Split Hybrid Vehicles with a Single Planetary Gear",
+    authors: "T. Barhoumi and D. Kum",
+    venue: "ASME Dynamic Systems and Control Conference",
+    year: "2014",
+    citations: "",
+    note: "doi:10.1115/DSCC2014-6086"
+  },
 
 ];
 
