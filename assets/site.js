@@ -1,416 +1,191 @@
 const fullPublications = [
+
   {
-    title: "Automated Robot (Car) using Artificial Intelligence",
-    authors: "S. Mishra, C. S. Minh, H. T. Chuc, T. V. Long, T. T. Nguyen",
-    venue: "2021 International Seminar on Machine Learning, Optimization, and Data Science",
+    title: "Designing a Super-Fast Prius: Systematic Design of Multi-Speed eCVT via Virtual Design Space",
+    authors: "T. Barhoumi and D. Kum",
+    venue: "IEEE Transactions on Transportation Electrification",
+    year: "2024",
+    citations: "",
+    note: "doi:10.1109/TTE.2023.3255901"
+  },
+
+  {
+    title: "Comprehensive Design Methodology of Compound-Split Hybrid Electric Vehicles: Introduction of the Compound Lever as a Design Tool",
+    authors: "H. Kim, T. Barhoumi (co-first author), and D. Kum",
+    venue: "IEEE Access",
+    year: "2019",
+    citations: "",
+    note: "doi:10.1109/ACCESS.2019.2925146"
+  },
+
+  {
+    title: "Automatic Generation of Design Space Conversion Maps and Its Application for the Design of Compound-Split Hybrid Powertrains",
+    authors: "T. Barhoumi, H. Kim, and D. Kum",
+    venue: "Journal of Mechanical Design",
+    year: "2018",
+    citations: "",
+    note: "doi:10.1115/1.4039451"
+  },
+
+  {
+    title: "Automatic Enumeration of Feasible Kinematic Diagrams for Split Hybrid Configurations with a Single Planetary Gear",
+    authors: "T. Barhoumi and D. Kum",
+    venue: "Journal of Mechanical Design",
+    year: "2017",
+    citations: "",
+    note: "doi:10.1115/1.4036583"
+  },
+
+  {
+    title: "Design and Analysis of a Novel Multi-Speed Output-Split Hybrid Electric Vehicle Powertrain",
+    authors: "T. Barhoumi and D. Kum",
+    venue: "IEEE ITEC+EATS",
+    year: "2026",
+    citations: "",
+    note: "doi:10.1109/ITECEATS66641.2026.11592898"
+  },
+
+  {
+    title: "Systematic Design of Fixed-Gear Modes for Novel Multi-Mode Architectures: A Prius Case Study",
+    authors: "T. Barhoumi and D. Kum",
+    venue: "European Control Conference",
     year: "2022",
-    citations: "28",
-    note: "First author"
-  },
-  {
-    title: "SATMeas - Object Detection and Measurement: Canny Edge Detection Algorithm",
-    authors: "L. T. T. Satyam Mishra",
-    venue: "Artificial Intelligence and Mobile Services, AIMS 2022, LNCS",
-    year: "2022",
-    citations: "25",
-    note: "SJR Q2"
-  },
-  {
-    title: "Using Security Metrics to Determine Security Program Effectiveness",
-    authors: "S. Mishra, P. T. Vi, V. M. Phuc, O. Damilola",
-    venue: "Human Factors in Cybersecurity",
-    year: "2022",
-    citations: "12",
-    note: "First author"
-  },
-  {
-    title: "Lightweight Authentication Encryption to Improve DTLS, Quark Combined with Overhearing to Prevent DoS and MITM on Low-Resource IoT Devices",
-    authors: "N. V. Tanh, Satyam Mishra, V. M. Phuc",
-    venue: "Internet of Things, ICIOT 2022, LNCS 13735, 108-122",
-    year: "2023",
-    citations: "11",
-    note: "First author"
-  },
-  {
-    title: "Integrating State-of-the-Art Face Recognition and Anti-Spoofing Techniques into Enterprise Information Systems",
-    authors: "S. Mishra, N. T. B. Thuy, C. D. Truong",
-    venue: "Artificial Intelligence and Mobile Services, AIMS 2023, 14202, 71-84",
-    year: "2023",
-    citations: "9",
-    note: "First author"
-  },
-  {
-    title: "KAN-PDEs: A Novel Approach to Solving Partial Differential Equations Using Kolmogorov-Arnold Networks, Enhanced Accuracy and Efficiency",
-    authors: "S. Yeo, P. A. Nguyen, A. N. Le, S. Mishra",
-    venue: "International Conference on Electrical and Electronics Engineering, 43-62",
-    year: "2024",
-    citations: "8",
-    note: ""
-  },
-  {
-    title: "User Interface Design and Usability in Information Systems",
-    authors: "N. V. Tanh, Phung Thao Vi, Satyam Mishra",
-    venue: "Creative Approaches Towards Development of Computing and Multidisciplinary IT Solutions",
-    year: "2024",
-    citations: "8",
-    note: ""
-  },
-  {
-    title: "Mitigating the Threat of Multi-Factor Authentication Bypass Through Man-in-the-Middle Attacks Using EvilGinx2",
-    authors: "S. Mishra, S. Mishra, Y. C. Toh, S. Mishra, P. T. Vi",
-    venue: "Creative Approaches Towards Development of Computing and Multidisciplinary IT Solutions",
-    year: "2024",
-    citations: "7",
-    note: ""
-  },
-  {
-    title: "VIS-NLP: Vaccination Inventory System for Justified User Using Natural Language Processing",
-    authors: "V. M. Phuc, S. Mishra, O. D. Igbagbo, L. T. Thanh",
-    venue: "Conference publication",
-    year: "2023",
-    citations: "7",
-    note: ""
-  },
-  {
-    title: "BNIS-Bot Node Isolation Strategy to Prevent DoS Attacks: An Improved Overhearing Solution",
-    authors: "S. Mishra, N. Van Tanh, V. M. Phuc, O. D. Igbagbo",
-    venue: "6th International Conference on Computer Applications and Information Processing Technology",
-    year: "2023",
-    citations: "6",
-    note: "First author"
-  },
-  {
-    title: "Immersive Virtual Painting: Pushing Boundaries in Real-Time Computer Vision using OpenCV with C++",
-    authors: "S. Mishra, V. D. Trung, Le Anh Ngoc, P. T. Vi, S. Mishra",
-    venue: "RICE, 41-50",
-    year: "2023",
-    citations: "4",
-    note: "SJR Q1 · First author"
-  },
-  {
-    title: "Advancing Online Education: An Artificial Intelligence Applied System for Monitoring and Improving Employee Engagement in Enterprise Information Systems",
-    authors: "N. T. Son, T. T. Hoang, S. Mishra, N. T. B. Thuy, T. H. Tam, C. D. Truong",
-    venue: "International Conference on Nature of Computation and Communication, 3-18",
-    year: "2023",
-    citations: "3",
-    note: ""
-  },
-  {
-    title: "DICKT: Deep Learning-Based Image Captioning using Keras and TensorFlow",
-    authors: "P. T. Vi, S. Mishra, Le Anh Ngoc, S. Mishra, V. M. Phuc",
-    venue: "RICE, 105-110",
-    year: "2023",
-    citations: "2",
-    note: "SJR Q1"
-  },
-  {
-    title: "MACCHIEF: Machine Learning-Based Algorithm Classification for Complaint Handling and Improved Efficiency in Firms",
-    authors: "V. D. Trung, Y. C. Toh, S. Mishra, Le Anh Ngoc, P. T. Vi",
-    venue: "RICE, 99-103",
-    year: "2023",
-    citations: "2",
-    note: "SJR Q1"
-  },
-  {
-    title: "SafeRL-Lite: A Lightweight, Explainable, and Constrained Reinforcement Learning Library",
-    authors: "S. Mishra, P. T. Vi, S. Mishra, V. Bijalwan, V. B. Semwal, A. M. Khan",
-    venue: "arXiv preprint arXiv:2506.17297",
-    year: "2025",
-    citations: "1",
-    note: "First author · Open-source library"
-  },
-  {
-    title: "STEDSDR: Simulated Testing and Evaluation of Drone Surveillance for Disaster Response",
-    authors: "Y. C. Toh, P. A. Nguyen, S. Mishra, V. D. Trung, P. T. Vi, L. A. Ngoc",
-    venue: "Unmanned Aircraft Systems, 225-261",
-    year: "2024",
-    citations: "1",
-    note: ""
-  },
-  {
-    title: "Debugging Human Pose Estimation with Explainable AI",
-    authors: "M. Satyam, N. Le Anh",
-    venue: "Proceedings of the International Conference on Intelligent Systems and Data Science",
-    year: "2024",
-    citations: "1",
-    note: "First author"
-  },
-  {
-    title: "Efficient Face Mask Detection for Banking Information Systems",
-    authors: "C. D. Truong, S. Mishra, N. Q. Long, L. A. Ngoc",
-    venue: "Creative Approaches Towards Development of Computing and Multidisciplinary IT Solutions",
-    year: "2024",
-    citations: "1",
-    note: ""
-  },
-  {
-    title: "Understanding the Impact and Implications of Emagnet and Pastebin in Cybersecurity",
-    authors: "S. Mishra, S. Mishra, S. Mishra, P. T. Vi, Y. C. Toh",
-    venue: "Creative Approaches Towards Development of Computing and Multidisciplinary IT Solutions",
-    year: "2024",
-    citations: "1",
-    note: ""
-  },
-  {
-    title: "Detecting Stroke in Human Beings Using Machine Learning",
-    authors: "O. D. Igbagbo, S. Mishra, V. M. Phuc, L. Trung, P. H. Y. Thanh",
-    venue: "Health Informatics and Biomedical Engineering Applications 78, 95",
-    year: "2023",
-    citations: "1",
-    note: ""
-  },
-  {
-    title: "Attention Is a Functor: Enforcing Categorical Structure in Transformers",
-    authors: "H. Kim, S. Mishra, T. D. Tan, V. Bijalwan",
-    venue: "Lecture Notes in Networks and Systems, 24-33",
-    year: "2026",
     citations: "",
-    note: "SJR Q4"
+    note: "doi:10.23919/ECC55457.2022.9838163"
   },
+
   {
-    title: "Neuro-Symbolic Attention Modulation in Biomedical QA via Signal Algebra-Augmented LLMs",
-    authors: "H. Y. Sohn, S. Mishra, V. Bijalwan",
-    venue: "Lecture Notes in Networks and Systems, 116-125",
-    year: "2026",
-    citations: "",
-    note: "SJR Q4"
-  },
-  {
-    title: "NeuralDMD vs Transformers: A Spectral Benchmark for Economic Signal Forecasting",
-    authors: "G. Bach, S. Mishra, T. D. Tan, V. Bijalwan",
-    venue: "Lecture Notes in Networks and Systems, 457-466",
-    year: "2026",
-    citations: "",
-    note: "SJR Q4"
-  },
-  {
-    title: "AeroSenseNet: When Physics Meets Transformers for Predicting Aircraft Maneuvers from Jet Engine Sensors",
-    authors: "S. J. Cho, S. Mishra, V. Bijalwan, A. Bijalwan",
-    venue: "Lecture Notes in Networks and Systems 1831, 214-223",
-    year: "2026",
-    citations: "",
-    note: "SJR Q4"
-  },
-  {
-    title: "EDL-HJAE: An Ensemble Deep Learning Framework for Multimodal Gait Analysis and Hip Joint Asymmetry Evaluation",
-    authors: "A. M. Bijalwan, V. Bijalwan, S. Mishra, A. M. Khan",
-    venue: "Multimedia Tools and Applications",
-    year: "2026",
-    citations: "",
-    note: "SJR Q1 · Second author"
-  },
-  {
-    title: "Koopman Spectral Dynamics for Interpretable and Predictive Semantic Drift in Language Models",
-    authors: "S. Mishra, V. Phung, P. Vu, S. Mishra, S. Mishra, V. Bijalwan, T. D. Tan",
-    venue: "International Conference on Data Mining, ICDM 2025, 605-612",
-    year: "2025",
-    citations: "",
-    note: "First author"
-  },
-  {
-    title: "Exploring the Temporal Dynamics and Causal Interactions Between the Amygdala and vmPFC",
-    authors: "W. Su, S. Mishra, A. Bijalwan",
-    venue: "Biomedical Informatics and Smart Healthcare 1(1), 27-34",
-    year: "2025",
+    title: "Complete Design Space Exploration of the Generic Voltec Second-Generation Powertrain via Virtual Levers",
+    authors: "C. Song, J. Hwang, T. Barhoumi, and D. Kum",
+    venue: "AVEC",
+    year: "2018",
     citations: "",
     note: ""
   },
+
   {
-    title: "Context-Controlled Question Generation for Adaptive Learning",
-    authors: "T. V. Phung, S. Mishra, V. Bijalwan, T. Duc-Tan, S. Mishra",
-    venue: "2025 International Conference on Electronics, AI and Computing, EAIC, 1-6",
-    year: "2025",
+    title: "Compound-Lever-Based Optimal Configuration Selection of Compound-Split Hybrid Vehicles",
+    authors: "T. Barhoumi, H. Kim, and D. Kum",
+    venue: "SAE Technical Paper 2017-01-1148",
+    year: "2017",
     citations: "",
-    note: "Second author · Best Paper Award"
+    note: "doi:10.4271/2017-01-1148"
   },
+
   {
-    title: "AVFD: Autonomous Vision-Based Fleet Management for Drone Delivery Optimization in E-Commerce",
-    authors: "V. D. Trung, P. A. Nguyen, T. Y. Chi, P. T. Vi, S. Mishra, L. A. Ngoc",
-    venue: "Unmanned Aircraft Systems, 181-223",
+    title: "Automated Schematic Design of Power-Split Hybrid Vehicles with a Single Planetary Gear",
+    authors: "T. Barhoumi and D. Kum",
+    venue: "ASME Dynamic Systems and Control Conference",
+    year: "2014",
+    citations: "",
+    note: "doi:10.1115/DSCC2014-6086"
+  },
+
+  {
+    title: "Bridging the Gap between Power-Split and Parallel Systems for a Superior Performance: Prius Case Study",
+    authors: "T. Barhoumi and D. Kum",
+    venue: "KSAE Annual Conference",
     year: "2024",
     citations: "",
     note: ""
   },
+
   {
-    title: "Intelligence Applied System for Monitoring and Improving Employee Engagement in Enterprise Information Systems",
-    authors: "N. T. Son, T. T. Hoang, S. Mishra",
-    venue: "Nature of Computation and Communication, 3",
+    title: "Mode Shift Control of Multi-Mode Power-Split Transmission Using Dog Clutches",
+    authors: "T. Barhoumi and D. Kum",
+    venue: "KSAE Annual Conference",
     year: "2024",
     citations: "",
     note: ""
   },
+
   {
-    title: "PBC-ML: Predicting Breast Cancer in Humans using Machine Learning Approach",
-    authors: "D. Oni, S. Mishra, V. M. Phuc, L. Nguyen",
-    venue: "Health Informatics and Biomedical Engineering Applications 78",
-    year: "2023",
+    title: "Analysis of a Toyota Prius 4th Generation-Based Multi-Mode System Using Dog Clutches",
+    authors: "T. Barhoumi and D. Kum",
+    venue: "KSAE Annual Conference",
+    year: "2021",
     citations: "",
     note: ""
   },
+
   {
-    title: "LSTM Network-Based Accurate Greenhouse Temperature Forecasting through Privacy-Preserving Federated Learning",
-    authors: "P. A. Nguyen, T. Ha, S. Mishra, L. T. Kien, A. N. Le, D. H. Kim",
-    venue: "Human-centric Computing and Information Sciences, 16, 1-35",
-    year: "2026",
+    title: "Evaluation of the Full Potential of the Generic Voltec Second Generation Powertrain through Exhaustive Virtual Design Space Search",
+    authors: "T. Barhoumi et al.",
+    venue: "KSAE Annual Conference",
+    year: "2018",
     citations: "",
-    note: "SJR Q2"
+    note: ""
+  },
+
+  {
+    title: "Optimal Configuration Selection of Two Planetary Gear Compound-Split Hybrid Electric Vehicles",
+    authors: "H. Kim, T. Barhoumi, and D. Kum",
+    venue: "KSAE Annual Conference",
+    year: "2017",
+    citations: "",
+    note: ""
   }
+
 ];
 
 const preprints = [
   {
-    title: "C3QG++: Context-Controlled, Explainable, and Efficient Question Generation with Transformers",
-    authors: "S. Mishra and collaborators",
-    venue: "Under review, Applied Intelligence",
-    year: "Manuscript",
-    note: "First author"
-  },
-  {
-    title: "One-Shot Human Motion Synthesis via Koopman Neural Operators: A Physics-Guided, Contrastive Learning Framework",
-    authors: "S. Mishra and collaborators",
-    venue: "Under review",
-    year: "Manuscript",
+    title: "Blending Power-Split and Parallel Systems for Superior Performance: An Exhaustive Search via Virtual Design Space",
+    authors: "T. Barhoumi and D. Kum",
+    venue: "Submitted",
+    year: "Submitted",
+    citations: "",
     note: ""
   },
+
   {
-    title: "SpectralONN: Phase-Aware Functional Operator Networks for Interpretable Frequency-Domain Learning",
-    authors: "S. Mishra and collaborators",
-    venue: "Under review",
-    year: "Manuscript",
+    title: "Beyond Power Transmission: eCVT as a Transitional Mode for a Hybrid System Using Dog Clutches",
+    authors: "T. Barhoumi and D. Kum",
+    venue: "In preparation",
+    year: "In preparation",
+    citations: "",
     note: ""
-  },
-  {
-    title: "KoopFall: Koopman + LSTM Hybrid for Fall Detection from Multimodal Sensor Data",
-    authors: "S. Mishra and collaborators",
-    venue: "Under review",
-    year: "Manuscript",
-    note: ""
-  },
-  {
-    title: "Sparse Is Smart: Efficient 3D Point Cloud Transformers Without Positional Encoding",
-    authors: "S. Mishra and collaborators",
-    venue: "Under review, Information Fusion",
-    year: "Manuscript",
-    note: "First author"
-  },
-  {
-    title: "Spectral Drift Reveals Hallucination: Unsupervised Quantum-Inspired Signals in LLMs",
-    authors: "S. Mishra and collaborators",
-    venue: "Ongoing manuscript",
-    year: "Manuscript",
-    note: "First author"
-  },
-  {
-    title: "Obey the Automaton: Learning Grammar-Constrained Generation with Soft RL",
-    authors: "S. Mishra and collaborators",
-    venue: "Ongoing manuscript",
-    year: "Manuscript",
-    note: "First author"
-  },
-  {
-    title: "Latents Don’t Lie: Measuring Semantic Entropy for Better Alignment in Language Models",
-    authors: "S. Mishra and collaborators",
-    venue: "Ongoing manuscript",
-    year: "Manuscript",
-    note: "First author"
-  },
-  {
-    title: "Strika: Triple-Term Contrastive Learning with Selective State Spaces for Fast and Interpretable Text Dynamics",
-    authors: "S. Mishra and collaborators",
-    venue: "Ongoing manuscript",
-    year: "Manuscript",
-    note: "Second author"
-  },
-  {
-    title: "Symbolic Alignment via Deterministic Automata: Safety Guarantees and Oversight for Reinforcement Learning Agents",
-    authors: "S. Mishra and collaborators",
-    venue: "Ongoing manuscript",
-    year: "Manuscript",
-    note: "First author"
-  },
-  {
-    title: "Entropy-Guided Koopman Belief Forecasting and Symbolic Policy Classification in POMDPs",
-    authors: "S. Mishra and collaborators",
-    venue: "Ongoing manuscript",
-    year: "Manuscript",
-    note: "First author"
-  },
-  {
-    title: "SCOF: A Causal Oversight Framework for Proactive AI Agent Safety Across Unified Benchmarks",
-    authors: "S. Mishra and collaborators",
-    venue: "Ongoing manuscript",
-    year: "Manuscript",
-    note: "Second author"
-  },
-  {
-    title: "Keeping Language Models Aligned Under Domain Drift with Entropy-Guided Adaptive Fine-Tuning",
-    authors: "S. Mishra and collaborators",
-    venue: "Ongoing manuscript",
-    year: "Manuscript",
-    note: "Second author"
-  },
-  {
-    title: "Teaching Data to Speak the Same Language: Mutual Information-Driven Augmentations for Robust Learning",
-    authors: "S. Mishra and collaborators",
-    venue: "Ongoing manuscript",
-    year: "Manuscript",
-    note: "Second author"
-  },
-  {
-    title: "KoopMO for One-Shot Robotic Motion Planning",
-    authors: "S. Mishra and collaborators",
-    venue: "Ongoing research, target: TRO",
-    year: "Research",
-    note: "Koopman neural operator-based motion planning"
-  },
-  {
-    title: "Chebyshev Attention Mechanism for Transformers",
-    authors: "S. Mishra and collaborators",
-    venue: "Ongoing research, target: NeurIPS",
-    year: "Research",
-    note: "Chebyshev distance-based attention"
   }
 ];
 
-const books = [
-  {
-    title: "AI Meets Pure Math: Issue #1",
-    status: "Live on Amazon",
-    description: "A learning resource exploring connections between pure mathematics and artificial intelligence, including Koopman operators in NLP."
-  },
-  {
-    title: "Mathematics for Robotics: Learn All the Math You Need to Excel in Robotics",
-    status: "Live on Amazon",
-    description: "A math-focused robotics guide covering the foundations required to reason about robot motion, control, and perception."
-  },
-  {
-    title: "Learning to Learn: Reinforcement Learning Explained for Humans",
-    status: "Live on Amazon",
-    description: "An accessible reinforcement learning book designed to explain decision-making, rewards, policies, and learning behavior."
-  }
-];
 
 const patents = [
   {
-    title: "System and Method for Modeling Semantic Drift in Language Models using Koopman Operators",
-    status: "Published in Indian IPR · Examination Stage",
-    description: "A dynamical systems-based framework to track, model, and mitigate semantic drift in language models using Koopman spectral operators."
+    title: "Driving Apparatus for Hybrid Vehicle with Multiple Operating Modes",
+    status: "Korean Patent Application No. 10-2025-0061716 · 2025",
+    description: "D. Kum and T. Barhoumi"
   },
+
   {
-    title: "SpectralONN: System and Method for Spectral-Domain Learning in Neural Networks using Functional Operator Theory",
-    status: "Published in Indian IPR · Examination Stage",
-    description: "A neural network framework operating in the spectral domain with Fourier and Chebyshev bases for interpretable, phase-aware learning."
+    title: "Multi-Mode Hybrid Vehicle Powertrain Apparatus",
+    status: "U.S. Patent No. 10,131,220 · 2018",
+    description: "D. Kum et al."
   },
+
   {
-    title: "C3QG: System and Method for Confidence-Calibrated Question Generation using Conformal and Contrastive Learning",
-    status: "Published in Indian IPR · Examination Stage",
-    description: "A confidence-aware question generation system integrating conformal prediction, contrastive learning, semantic constraints, and calibration."
+    title: "Hybrid Vehicle Powertrain Apparatus with Multiple Modes",
+    status: "Korean Patent Registration No. 10-1865862 · 2018",
+    description: "D. Kum et al."
   },
+
   {
-    title: "Sparse Is Smart: Efficient 3D Point Cloud Transformers Without Positional Encoding",
-    status: "Stage 1 Approved · Filed in India",
-    description: "A Sparse Block Attention architecture that reduces point-cloud transformer complexity by applying attention in local neighborhoods."
+    title: "Driving Apparatus for Hybrid Vehicle Having Multiple Modes",
+    status: "PCT/KR2016/015492 · 2017",
+    description: "D. Kum et al."
+  },
+
+  {
+    title: "Hybrid Powertrain Apparatus",
+    status: "Korean Patent Registration No. 10-1879127 · 2017",
+    description: "D. Kum et al."
+  },
+
+  {
+    title: "Hybrid Vehicle Powertrain Apparatus with Multiple Modes",
+    status: "Korean Patent Registration No. 10-1688334 · 2016",
+    description: "D. Kum et al."
   }
+
 ];
 
 const makeEl = (tag, className, text) => {
