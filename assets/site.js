@@ -114,7 +114,7 @@ const fullPublications = [
     year: "2017",
     citations: "",
     note: ""
-  }
+  },
 
   {
     title: "Automated Schematic Design of Power-Split Hybrid Vehicles with a Single Planetary Gear",
