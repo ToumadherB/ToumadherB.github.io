@@ -1182,13 +1182,42 @@ h3 {
    TOUMADHER — HERO CAR BACKGROUND
    ========================================================== */
 
+/* ==========================================================
+   TOUMADHER — FULL HERO BACKGROUND
+   ========================================================== */
+
 .hero {
   position: relative;
+  overflow: hidden;
+  isolation: isolate;
+}
+
+
+/* Full-size car artwork layer */
+
+.hero::after {
+  content: "";
+
+  position: absolute;
+  inset: 0;
 
   background-image: url("hero-car.png");
   background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 
-  background-position: right 2rem center;
+  opacity: 0.42;
 
-  background-size: min(58vw, 900px) auto;
+  pointer-events: none;
+
+  z-index: -1;
+}
+
+
+/* Keep text and portrait clearly above the image */
+
+.hero-content,
+.hero-card {
+  position: relative;
+  z-index: 2;
 }
