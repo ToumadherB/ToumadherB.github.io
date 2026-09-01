@@ -207,7 +207,36 @@ function renderPublications(items, containerId) {
     body.appendChild(makeEl("h3", "publication-title", item.title));
     body.appendChild(makeEl("p", "publication-authors", item.authors));
     body.appendChild(makeEl("p", "publication-meta", `${item.venue} · ${item.year}`));
-    if (item.note) body.appendChild(makeEl("p", "publication-note", item.note));
+
+    if (item.note) {
+      
+        if (item.note.toLowerCase().startsWith("doi:")) {
+      
+          const doi = item.note.replace(/^doi:/i, "").trim();
+      
+          const link = document.createElement("a");
+      
+          link.className = "publication-note publication-doi";
+      
+          link.href = `https://doi.org/${doi}`;
+      
+          link.target = "_blank";
+      
+          link.rel = "noreferrer";
+      
+          link.textContent = item.note;
+      
+          body.appendChild(link);
+      
+        } else {
+      
+          body.appendChild(
+            makeEl("p", "publication-note", item.note)
+          );
+      
+        }
+      
+      }
 
     const badges = makeEl("div", "publication-badges");
     badges.appendChild(makeEl("span", "badge", item.year));
