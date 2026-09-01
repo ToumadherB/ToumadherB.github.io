@@ -187,6 +187,8 @@ const patents = [
 
 ];
 
+const books = [];
+
 const makeEl = (tag, className, text) => {
   const el = document.createElement(tag);
   if (className) el.className = className;
