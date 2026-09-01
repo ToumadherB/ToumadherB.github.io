@@ -1063,4 +1063,19 @@ h3 {
     text-align: left;
   }
 
+  /* Clickable DOI links */
+
+.publication-doi {
+  display: inline-block;
+  color: #69e6ff;
+  text-decoration: none;
+  width: fit-content;
+  transition: opacity 0.2s ease;
+}
+
+.publication-doi:hover {
+  opacity: 0.7;
+  text-decoration: underline;
+}
+
 }
