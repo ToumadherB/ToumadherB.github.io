@@ -1176,6 +1176,8 @@ h3 {
     padding: 1.25rem;
   }
 
+}
+
   /* ==========================================================
    TOUMADHER — HERO CAR BACKGROUND
    ========================================================== */
@@ -1189,6 +1191,4 @@ h3 {
   background-position: right 2rem center;
 
   background-size: min(58vw, 900px) auto;
-}
-
 }
