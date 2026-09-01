@@ -1,5 +1,13 @@
 const fullPublications = [
-
+  {
+    title: "Design and Analysis of a Novel Multi-Speed Output-Split Hybrid Electric Vehicle Powertrain",
+    authors: "T. Barhoumi and D. Kum",
+    venue: "IEEE ITEC+EATS",
+    year: "2026",
+    citations: "",
+    note: "doi:10.1109/ITECEATS66641.2026.11592898"
+  },
+  
   {
     title: "Designing a Super-Fast Prius: Systematic Design of Multi-Speed eCVT via Virtual Design Space",
     authors: "T. Barhoumi and D. Kum",
@@ -34,15 +42,6 @@ const fullPublications = [
     year: "2017",
     citations: "",
     note: "doi:10.1115/1.4036583"
-  },
-
-  {
-    title: "Design and Analysis of a Novel Multi-Speed Output-Split Hybrid Electric Vehicle Powertrain",
-    authors: "T. Barhoumi and D. Kum",
-    venue: "IEEE ITEC+EATS",
-    year: "2026",
-    citations: "",
-    note: "doi:10.1109/ITECEATS66641.2026.11592898"
   },
 
   {
