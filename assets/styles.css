@@ -1177,3 +1177,154 @@ h3 {
   }
 
 }
+
+
+/* ==========================================================
+   TOUMADHER — LIGHT / WHITE THEME
+   ========================================================== */
+
+:root {
+  --bg: #f7f9fc;
+  --bg-soft: #eef3f8;
+
+  --bg-card: rgba(255, 255, 255, 0.90);
+  --bg-card-strong: #ffffff;
+
+  --text: #101828;
+  --muted: #526075;
+  --muted-2: #758198;
+
+  --line: rgba(30, 60, 90, 0.14);
+
+  --cyan: #007f9b;
+  --blue: #315efb;
+  --violet: #7657d5;
+  --green: #168765;
+
+  --shadow: 0 18px 55px rgba(30, 50, 70, 0.10);
+}
+
+
+/* Main page background */
+
+body {
+  color: var(--text);
+
+  background:
+    radial-gradient(
+      circle at top left,
+      rgba(0, 160, 200, 0.07),
+      transparent 34rem
+    ),
+    radial-gradient(
+      circle at 90% 10%,
+      rgba(118, 87, 213, 0.06),
+      transparent 32rem
+    ),
+    #f7f9fc;
+}
+
+
+/* Remove the dark technical grid */
+
+body::before {
+  display: none;
+}
+
+
+/* Remove animated neural background */
+
+#neural-canvas {
+  display: none !important;
+}
+
+
+/* Remove grain/noise texture */
+
+.noise {
+  display: none !important;
+}
+
+
+/* Header */
+
+.site-header {
+  background: rgba(255, 255, 255, 0.88);
+
+  border-color: rgba(30, 60, 90, 0.14);
+
+  box-shadow:
+    0 10px 35px rgba(30, 50, 70, 0.08);
+}
+
+
+/* Normal cards */
+
+.metric-card,
+.content-card,
+.publication-card,
+.stack-card,
+.timeline-item {
+  background: rgba(255, 255, 255, 0.88);
+
+  border-color: rgba(30, 60, 90, 0.14);
+
+  box-shadow:
+    0 14px 45px rgba(30, 50, 70, 0.07);
+}
+
+
+/* Hero profile card */
+
+.hero-card {
+  background:
+    linear-gradient(
+      180deg,
+      rgba(0, 150, 190, 0.06),
+      rgba(118, 87, 213, 0.04)
+    ),
+    rgba(255, 255, 255, 0.94);
+
+  border-color: rgba(0, 127, 155, 0.20);
+
+  box-shadow:
+    0 18px 55px rgba(30, 50, 70, 0.12);
+}
+
+
+/* Text that was hard-coded for the dark theme */
+
+.publication-authors,
+#patent-list .stack-card p {
+  color: #344054;
+}
+
+
+.chips span,
+.badge,
+.contact-links a {
+  color: #24364b;
+
+  background: rgba(0, 127, 155, 0.05);
+
+  border-color: rgba(0, 127, 155, 0.17);
+}
+
+
+/* Search box */
+
+#publication-search {
+  color: #101828;
+  background: rgba(255, 255, 255, 0.90);
+}
+
+
+/* Mobile navigation */
+
+@media (max-width: 820px) {
+
+  .site-nav {
+    background: rgba(255, 255, 255, 0.97);
+  }
+
+}
