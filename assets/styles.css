@@ -1328,3 +1328,18 @@ body::before {
   }
 
 }
+
+
+#emerging-interests .research-grid {
+  grid-template-columns: repeat(3, minmax(260px, 320px));
+  justify-content: center;
+  gap: 24px;
+}
+
+@media (max-width: 900px) {
+  #emerging-interests .research-grid {
+    grid-template-columns: 1fr;
+    max-width: 520px;
+    margin: 0 auto;
+  }
+}
